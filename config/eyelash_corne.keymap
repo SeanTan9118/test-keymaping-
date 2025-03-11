@@ -77,10 +77,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&tog 2  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                               &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
-&none   &kp F6   &kp F7   &kp F8   &kp F9   &kp F10              &mmv MOVE_LEFT  &mo 4           &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&none   &kp F11  &kp F12  &kp F13  &kp F14  &none      &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &tog 2
-                          &trans   &trans   &kp SPACE                                                             &kp RET    &trans     &trans
+&tog 2      &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                               &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
+&none       &kp F6   &kp F7   &kp F8   &kp F9   &kp F10              &mmv MOVE_LEFT  &mo 4           &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&kp LSHIFT  &kp F11  &kp F12  &kp F13  &kp F14  &none      &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &tog 2
+                              &trans   &trans   &kp SPACE                                                             &kp RET    &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
