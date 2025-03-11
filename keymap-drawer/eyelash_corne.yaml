@@ -20,7 +20,7 @@ layers:
   - F
   - G
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - Gui+B
   - $$mdi:arrow-right-bold$$
   - H
   - J
@@ -56,10 +56,10 @@ layers:
   - '3'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-up-bold$$
-  - {t: '9', s: (}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgUp
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
@@ -68,9 +68,9 @@ layers:
   - {t: '5', s: '%'}
   - '6'
   - .
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - J
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - K
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
