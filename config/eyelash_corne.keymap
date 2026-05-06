@@ -53,11 +53,6 @@
             key-positions = <29 30>;
             layers = <0>;
         };
-
-        gamelayer {
-            bindings = <&tog 6>;
-            key-positions = <45 46 47>;
-        };
     };
 
     keymap {
@@ -123,15 +118,6 @@
 &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp BACKSPACE            &mmv MOVE_LEFT  &mkp MB1        &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans          &trans          &trans           &kp DEL        &trans                    &mmv MOVE_DOWN                   &trans  &trans  &trans  &trans  &trans  &trans
                                 &mkp MB3        &mkp RCLK        &mkp MB1                                                                  &trans  &trans  &trans
-            >;
-        };
-
-        layer_6 {
-            bindings = <
-&kp GRAVE       &kp Q  &kp W  &kp E      &kp R         &kp T                        &trans          &kp Y         &kp U          &kp I      &kp O       &kp P          &kp ESCAPE
-&kp TAB         &kp A  &kp S  &kp D      &kp G         &kp G                &trans  &trans  &trans  &kp H         &kp J          &kp K      &kp L       &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V         &kp B      &trans            &trans          &kp N         &kp M          &kp COMMA  &kp PERIOD  &kp SLASH      &kp ENTER
-                              &kp LCTRL  &kp LEFT_ALT  &kp SPACE                                    &kp LEFT_GUI  &kp BACKSPACE  &tog 6
             >;
         };
     };
