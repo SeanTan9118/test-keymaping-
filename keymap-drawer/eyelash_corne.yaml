@@ -307,7 +307,7 @@ layers:
   - I
   - O
   - P
-  - {t: '6', h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
   - A
   - S
